@@ -1,0 +1,353 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home page</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="index.html"><img src="logo.png" alt=""></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="index.html" style="color: red !important;">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="about.html">About Us</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            Account
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" href="saving.html">Saving account</a></li>
+                            <li><a class="dropdown-item" href="fixed.html">Fixed Deposit</a></li>
+                            <li><a class="dropdown-item" href="recurring.html">Recurring Deposit</a></li>
+                            <li><a class="dropdown-item" href="gold.html">Gold Loan</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="#">Other Accounts</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            Login
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" href="branch.html">Branch login</a></li>
+                            <li><a class="dropdown-item" href="customer.html">Customer login</a></li>
+                            <li><a class="dropdown-item" href="branch.html">Advisor login</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="contact.html">Contact Us</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+            <div class="carousel-item active" data-bs-interval="10000">
+                <img src="banner1.jpg" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item" data-bs-interval="2000">
+                <img src="banner.jpg" class="d-block w-100" alt="...">
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval"
+            data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval"
+            data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-3 col-md-6 col-sm-12 mt-5">
+                <div class="card" style="width: 16rem; height: 350px; background-color: rgb(219, 167, 26);">
+                    <div class="image">
+                        <img src="depos.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5>Fixed Deposit</h5>
+                            <p>A fixed deposit (FD) is a financial instrument provided by banks which provides investors
+                                with a higher rate of interest than a regular savings</p>
+                        </div>
+                        <button><a href="fixed.html">Read More</a></button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-12 mt-5">
+                <div class="card" style="width: 16rem; height: 350px; background-color:  rgb(219, 167, 26)">
+                    <div class="image">
+                        <img src="money-jar.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5>Recurring Deposit</h5>
+                            <p>Recurring Deposit is a special kind of Term Deposit offered by banks with regular incomes
+                                to deposit a fixed amount monthly into their RD account.</p>
+                        </div>
+                        <button><a href="recurring.html">Read More</a></button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-12 mt-5">
+                <div class="card" style="width: 16rem; height: 350px; background-color: rgb(219, 167, 26);">
+                    <div class="image">
+                        <img src="piggy-bank.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5>Saving Account</h5>
+                            <p>A savings account is an interest-bearing deposit account held in India at a bank or
+                                another financial institution that provides a modest interest rate.</p>
+                        </div>
+                        <button><a href="saving.html">Read More</a></button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-12 mt-5">
+                <div class="card" style="width: 16rem; height: 350px; background-color:  rgb(219, 167, 26);">
+                    <div class="image">
+                        <img src="wallet.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5>Monthly Income Scheme</h5>
+                            <p>Monthly Income Plan is a traditional participating product, which provides deferred
+                                regular income to the customer for many years.</p>
+                        </div>
+                        <button><a href="recurring.html">Read More</a></button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-4 col-md-6 col-sm-12">
+                <div class="heading">
+                    <h5>Welcome To &nbsp<img src="logo.png" alt=""></h5>
+                </div>
+                <div class="homo" style="width: 24rem;">
+                    <img src="homeimg.jpg" class="card-img-top" alt="...">
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 col-sm-12">
+                <div class="homo1" style="width: 22rem;">
+                    <div class="card-body">
+                        <p>Shekhawati Nidhi Limited Welcomes you to its Official Website. Company was incorporated and
+                            declared by the Central Government of India in the Year of 2018, controlled and regulated by
+                            the Ministry of Corporate Affairs, Govt. of India. Further, Shekhawati Nidhi Limited is in
+                            compliance with all statutory requirements and regulations issued by Reserve Bank Of India.
+                            Company that is working with great enthusiasm and dedication towards providing the best
+                            financial platform to its members or shareholders. <br> <br>
+                            Main objective is to encourage and afford all facilities for cultivating thrift ,saving
+                            habits and to render all financial assistance to its member only by receiving long and short
+                            term deposits and in particular recurring ,fixed and other</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 col-sm-12">
+                <div class="homo2" style="width: 22rem;">
+                    <h5>News & Events</h5>
+                    <div class="card-body">
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="para">
+            <p>deposits as allowed by law for Nidhi, and to grant loans to the member against securities of
+                immovable properties and or on the security of deposits, movable such as gold, silver,
+                jewellery, insurance policies and other Government securities only upon such terms and condition
+                as may from time to time prescribed in law for Nidhi Companies.</p>
+        </div>
+    </div>
+    <div class="container">
+        <div class="hp">
+            <h2>Our Schemes</h2>
+            <p>Most reliable short term and long-term investment Schemes and Plans for High Returns of your Investments.
+            </p>
+        </div>
+        <div class="row">
+            <div class="col-lg-4 col-md-6 col-sm-12">
+                <div class="card1" style="width: 18rem; height: 400px;">
+                    <img src="gold-loan1.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Gold Loan​</h5>
+                        <p class="card-text">When you pledge your gold with us,rest assured, it is in the safest
+                            hands.Come unlock the best value of your gold ornaments.</p>
+                        <a href="gold.html" class="btn btn-primary"
+                            style="background-color: orangered !important ; border-radius: 20px !important;">Read
+                            More</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 col-sm-12">
+                <div class="card2" style="width: 18rem; height: 400px;">
+                    <img src="Loan-Against2.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Loan Against Deposit​</h5>
+                        <p class="card-text">Get Deposit Loan on your Fixed Deposits,Insurance Policy,Government Bond
+                            Make your fixed liquid..</p>
+                        <a href="fixed.html" class="btn btn-primary"
+                            style="background-color: orangered !important; border-radius: 20px !important;">Read
+                            More</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 col-sm-12">
+                <div class="card3" style="width: 18rem; height: 400px;">
+                    <img src="property_loan3.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Property Loan​</h5>
+                        <p class="card-text">Get loan against your property for your personal or business needs at very
+                            low rates and fulfill your dreams..</p>
+                        <a href="recurring.html" class="btn btn-primary"
+                            style="background-color: orangered !important; border-radius: 20px !important;">Read
+                            More</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="hp2">
+            <h2>Benifits With Us</h2>
+            <p>The Company commits itself to complete customer satisfaction through efficient, <br>
+                professional and courteous services</p>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-3 col-md-4 col-sm-10">
+                <div class="gola">
+                    <div class="sms">
+                        <a href="#"><i class="fa-regular fa-comment-dots"></i></a>
+                    </div>
+                </div>
+                <div class="ghp">
+                    <h2>1</h2>
+                    <p>Attractive & Assured Returns</p>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-4 col-sm-10">
+                <div class="gola">
+                    <div class="sms">
+                        <a href="#"><i class="fa-solid fa-folder-open"></i></a>
+                    </div>
+                </div>
+                <div class="ghp">
+                    <h2>2</h2>
+                    <p>Impeccable And services</p>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-4 col-sm-10">
+                <div class="gola">
+                    <div class="sms">
+                        <a href="#"><i class="fa-regular fa-heart"></i></a>
+                    </div>
+                </div>
+                <div class="ghp">
+                    <h2>3</h2>
+                    <p>Quick Loan against Deposit receipt</p>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-6">
+                <div class="gola">
+                    <div class="sms">
+                        <a href="#"><i class="fa-regular fa-keyboard"></i></a>
+                    </div>
+                </div>
+                <div class="ghp">
+                    <h2>4</h2>
+                    <p>Prompt Doorstep Assistance</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-6 col-md-6 col-sm-6">
+                <div class="gola1">
+                    <div class="sms1">
+                        <a href="#"><i class="fa-regular fa-comment-dots"></i></a>
+                    </div>
+                </div>
+                <div class="ghp1">
+                    <h2>5</h2>
+                    <p>A range of deposits products</p>
+                </div>
+            </div>
+            <div class="col-lg-6 col-md-6 col-sm-6">
+                <div class="gola2">
+                    <div class="sms2">
+                        <a href="#"><i class="fa-regular fa-heart"></i></a>
+                    </div>
+                </div>
+                <div class="ghp2">
+                    <h2>6</h2>
+                    <p>Quick Service</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="footer">
+        <div class="row">
+            <div class="col-lg-3 col-md-6 col-sm-12">
+                <h2 style="color: white; margin-top: 5%;">Shekhawati Nidhi</h2>
+                <div class="diteal">
+                    <p>This Site is Owned, Designed and Managed by Shekhawati Mutual Benefit Nidhi Ltd.</p>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-12">
+                <h2 style="color: white; margin-top: 5%;">Contact Us</h2>
+                <div class="diteal">
+                    <p>Regd.Off: KED, Ked with Gopalgarh Jhunjhunun, Rajasthan 302012 IN.
+                        Contact No.: 9001266600
+                        Email: shekhawatinidhi@gmail.com</p>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-12">
+                <h2 style="color: white; margin-top: 5%;">Deposit Accounts</h2>
+                <div class="loan1">
+                    <p><br><a href="fixed.html">Fixed Deposit</a><br> <a href="recurring.html">Recurring Deposit </a><br> <a href="saving.html">Saving Account</a></p>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-12">
+                <h2 style="color: white; margin-top: 5%;">Loan Accounts</h2>
+                <div class="loan2">
+                    <p><a href="gold.html"> Gold Loan </a><br> <a href="fixed.css"> Against Deposit </a> <br><a href="recurring.html">Loan Against Property </a></p>
+                </div>
+            </div>
+            <div class="power">
+                <p>Copyright © 2023 Shekhawati Nidhi | Powered by Yogesh Kashyap</p>
+            </div>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

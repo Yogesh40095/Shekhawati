@@ -1,0 +1,175 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.image img{
+    width: 70px;
+    height: 70px;
+    margin-left: 90px;
+    margin-top: 30px;
+}
+.image img:hover{
+    width: 60px;
+    height: 60px;
+}
+.image p{
+    text-align: center;
+}
+.image h5{
+    text-align: center;
+}
+.card{
+    border-radius: 10px !important;
+    box-shadow: 3px 3px 3px black;
+}
+.card button{
+    border: none;
+    color: white;
+    background-color:rgb(219, 167, 26) ;
+}
+.card button a{
+    text-decoration: none;
+    color: white;
+    margin-left: 60px;
+}
+.heading h5{
+    margin-top: 60px;
+    margin-bottom: 60px;
+    font-weight: bold;
+}
+.heading img{
+    width: 50%;
+}
+.homo1{
+    margin-top: 190px;
+}
+.homo1 p{
+    text-align: center;
+    color: gray;
+}
+.homo2{
+    margin-top: 100px;
+}
+.para p{
+    margin-right: 30%;
+    text-align: center;
+    color: gray;
+}
+.hp h2{
+    text-align: center;
+    font-weight: bold;
+}
+.hp p{
+    text-align: center;
+    color: gray;
+}
+.card3 img{
+    width: 270px;
+    height: 187px;
+}
+.hp2 h2{
+    text-align: center;
+    font-weight: bold;
+    margin-top: 5%;
+}
+.hp2 p{
+    color: gray;
+    text-align: center;
+}
+.gola{
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+    border: 3px solid blue;
+    position: relative;
+    margin-top: 30%;
+    margin-left: 19%;
+}
+.ghp h2{
+    margin-left: 35%;
+    margin-top: 7%;
+}
+.sms{
+    position: absolute;
+    margin-top: 17%;
+    margin-left: 28%;
+    font-size: 225%;
+    color: blue;
+}
+.gola1{
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+    border: 3px solid blue;
+    position: relative;
+    margin-top: 5%;
+    margin-left: 60%;
+}
+.ghp1 h2{
+    margin-left: 68%;
+    margin-top: 2%;
+}
+.ghp1 p{
+    margin-left: 50%;
+}
+.sms1{
+    position: absolute;
+    margin-top: 17%;
+    margin-left: 28%;
+    font-size: 225%;
+    color: blue;
+}
+.gola2{
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+    border: 3px solid blue;
+    position: relative;
+    margin-top: 5%;
+    margin-left: 9%;
+}
+.ghp2 h2{
+    margin-left: 16%;
+    margin-top: 2%;
+}
+.ghp2 p{
+    margin-left: 9%;
+}
+.sms2{
+    position: absolute;
+    margin-top: 17%;
+    margin-left: 28%;
+    font-size: 225%;
+    color: blue;
+}
+.loan1 a{
+    text-decoration: none;
+    color: white;
+}
+.loan1{
+    margin-top: -7%;
+}
+.loan2 a{
+    text-decoration: none;
+    color: white;
+}
+.diteal{
+    color: rgb(200, 186, 186);
+}
+.power p{
+    text-align: center;
+    margin-top: 5%;
+    color: white;
+}
+.footer{
+    width: 99%;
+    background-color: rgb(46, 44, 44);
+    text-align: center;
+}
+.dropdown-item:hover{
+    color: red !important;
+}
+.nav-link:hover{
+    color: red !important;
+}

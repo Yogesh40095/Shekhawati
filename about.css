@@ -1,0 +1,76 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.dropdown-item:hover{
+    color: red !important;
+}
+.nav-link:hover{
+    color: red !important;
+}
+.img {
+    width: 100%;
+    height: 350px;
+    background: url(about.jpg);
+    position: relative;
+}
+.img h1{
+    position: absolute;
+    margin-top: 15%;
+    margin-left: 5%;
+    font-size: 30px;
+    font-weight: bold;
+    color: rgb(236, 165, 128);
+}
+.img p{
+    position: absolute;
+    margin-top: 18%;
+    margin-left: 5%;
+    font-size: 40px;
+    font-weight: bold;
+    color: white;
+}
+.side{
+    margin-top: 10%;
+}
+.side h1{
+    font-weight: bold;
+}
+.side h6{
+    font-weight: bold;
+}
+.side p{
+    color: gray;
+}
+.fearch{
+    width: 420px;
+    height: 350px;
+    border-radius: 15px;
+    box-shadow: 3px 3px 3px 3px whitesmoke;
+}
+.footer{
+    width: 99%;
+    margin-top: 100px;
+    background-color: rgb(46, 44, 44);
+    text-align: center;
+}
+.loan1 a{
+    text-decoration: none;
+    color: white;
+}
+.loan1{
+    margin-top: -7%;
+}
+.loan2 a{
+    text-decoration: none;
+    color: white;
+}
+.diteal{
+    color: rgb(200, 186, 186);
+}
+.power p{
+    text-align: center;
+    margin-top: 5%;
+    color: white;
+}
